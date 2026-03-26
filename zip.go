@@ -24,7 +24,7 @@ func ZipString(s string) string {
 	}
 
 	// Step 3: Add the very last character group
-	result += fmt.Sprintf("%d%c", count, s[len(s)-1])
+	result +=  fmt.Sprintf("%d%c", count, s[len(s)-1])
 
 	return result
 }
