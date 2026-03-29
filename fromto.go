@@ -10,13 +10,11 @@ func FromTo(from int, to int) string {
 		return "Invalid\n"
 	}
 
-	var result string
+	result := ""
 	current := from
 
 	for {
 		// 2. Convert integer to two-digit string manually
-		// Tens digit: (n / 10) + '0'
-		// Units digit: (n % 10) + '0'
 		result += string(rune(current/10 + '0'))
 		result += string(rune(current%10 + '0'))
 
