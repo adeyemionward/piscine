@@ -1,6 +1,6 @@
 // package main
 
-// import "quad/piscine"
+//  import "quad/piscine"
 
 // func main() {
 
@@ -57,8 +57,8 @@
 package main
 
 import (
-	"fmt"
-	"pisprac2/piscine"
+	// "fmt"
+	"pisprac2/piscine" 
 )
 
 // func main() {
@@ -93,4 +93,8 @@ import (
 // 	fmt.Println(piscine.RepeatAlpha(""))
 // 	fmt.Println(piscine.RepeatAlpha("abacadaba 01!"))
 // }
+
+func main() {
+	piscine.PrintMemory([10]byte{'h', 'e', 'l', 'l', 'o', 16, 21, '*'})
+}
 

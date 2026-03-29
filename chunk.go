@@ -32,7 +32,3 @@ func Chunk(slice []int, size int) {
 	fmt.Println(result)
 }
 
-func main() {
-	// Testing with different batch sizes
-	Chunk([]int{0, 1, 2, 3, 4, 5, 6, 7}, 3)
-}

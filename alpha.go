@@ -4,12 +4,9 @@ import (
 	"fmt"
 )
 
-
-
 func RepeatAlpha(s string) string {
 	result := ""
 	
-
 	for _, c:= range s {
 		repeat := 1
 	    if(c >= 'a' && c <= 'z'){
